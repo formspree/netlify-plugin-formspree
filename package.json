@@ -31,7 +31,9 @@
     "ava": "cross-env FORCE_COLOR=1 ava --verbose",
     "release": "release-it"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@formspree/cli": "^0.9.6"
+  },
   "devDependencies": {
     "@netlify/build": "^4.7.2",
     "ava": "^3.13.0",

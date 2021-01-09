@@ -1,6 +1,7 @@
 // This is the main file for the Netlify Build plugin formspree.
 // Please read the comments to learn more about the Netlify Build plugin syntax.
 // Find more information in the Netlify documentation.
+fs = require('fs')
 
 /* eslint-disable no-unused-vars */
 module.exports = {
@@ -67,21 +68,14 @@ module.exports = {
       git,
     },
   }) {
-    try {
-      // Commands are printed in Netlify logs
-      await run('echo', ['Hello world!\n'])
-    } catch (error) {
-      // Report a user error
-      build.failBuild('Error message', { error })
+    if (fs.existsSync('formspree.json')) {
+      try {
+        await run('formspree', ['deploy'])
+      } catch (error) {
+        // Report a user error
+        build.failBuild('Formspree deploy command failed. See errors above.')
+      }
     }
-
-    // Console logs are shown in Netlify logs
-    console.log('Netlify configuration', netlifyConfig)
-    console.log('Plugin configuration', inputs)
-    console.log('Build directory', PUBLISH_DIR)
-
-    // Display success information
-    status.show({ summary: 'Success!' })
   },
 
   // Other available event handlers
