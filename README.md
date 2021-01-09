@@ -1,5 +1,7 @@
 ## Netlify Plugin for Formspree.
 
+This plugin installs and runs the Formspree CLI `deploy` command during your Netlify build. 
+
 Please install this plugin from the Netlify app.
 
 For help, please checkout the [Formspree CLI Docs](https://help.formspree.io/hc/en-us/articles/360053819114-The-Formspree-CLI).
