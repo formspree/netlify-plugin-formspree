@@ -1,10 +1,10 @@
-Netlify Plugin for Formspree.
+## Netlify Plugin for Formspree.
 
 Please install this plugin from the Netlify app.
 
 For help, please checkout the [Formspree CLI Docs](https://help.formspree.io/hc/en-us/articles/360053819114-The-Formspree-CLI).
 
-# Configuration
+## Configuration
 
 Once the plugin is installed, if there is a `formspree.json` file in your project root, it will run `formspree deploy` with default options during your pre-build phase.
 
