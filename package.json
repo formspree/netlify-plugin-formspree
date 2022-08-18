@@ -12,7 +12,7 @@
     "netlify-plugin",
     "netlify"
   ],
-  "author": "Formspree <team@formspree.io>",
+  "author": "Formspree, Inc.",
   "license": "MIT",
   "repository": "formspree/netlify-plugin-formspree",
   "directories": {
