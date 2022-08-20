@@ -21,14 +21,3 @@ Example: I've fixed this by [...]
 **Describe alternatives you've considered**
 
 Example: Another solution would be [...]
-
-**Checklist**
-
-Please add a `x` inside each checkbox:
-
-- [ ] I have read the [contribution guidelines](../blob/master/CONTRIBUTING.md).
-- [ ] I have added tests (we are enforcing 100% test coverage).
-- [ ] I have added documentation in the `README.md`, the `docs` directory (if
-      any) and the `examples` directory (if any).
-- [ ] The status checks are successful (continuous integration). Those can be
-      seen below.
