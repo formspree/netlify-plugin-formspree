@@ -11,6 +11,8 @@ Work in progress. We will update this section once the plugin has been included 
 
 ## Configuration via netlify.toml
 
+**Before starting**, please create a new CLI project in the Formspree dashboard. Once created, you'll see a Project ID and a Deploy Key. You'll need these later when configuring your plugin, and creating your form.
+
 First add the plugin to your project's package.json devDependencies:
 
 ```
@@ -32,7 +34,9 @@ Once the plugin is installed, if there is a `formspree.json` file in your projec
 
 ## Environment Variables
 
-At a minimum you'll need a `FORMSPREE_DEPLOY_KEY` which you can find under your project’s “Settings” tab in Formspree. Additionally, 3rd party plugins can be configured to accept API keys via environment variables. See the docs on [environment variables](https://help.formspree.io/hc/en-us/articles/360053819114#configuring-forms), and [continuous deployment](https://help.formspree.io/hc/en-us/articles/360053819114-The-Formspree-CLI#headerlink-4).
+At a minimum you'll need a `FORMSPREE_DEPLOY_KEY` environment variable populated with your project's deploy key. The deploy key was displayed when your project was first created. It can also be found under your project’s “Settings” tab in Formspree. 
+
+3rd party plugins can be configured to accept API keys via environment variables. See the docs on [environment variables](https://help.formspree.io/hc/en-us/articles/360053819114#configuring-forms), and [continuous deployment](https://help.formspree.io/hc/en-us/articles/360053819114-The-Formspree-CLI#headerlink-4).
 
 ## Adding endpoints with formspree.json
 
