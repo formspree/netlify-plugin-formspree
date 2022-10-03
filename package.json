@@ -16,7 +16,7 @@
   "license": "MIT",
   "repository": "formspree/netlify-plugin-formspree",
   "bugs": {
-    "url": "https://help.formspree.io/hc/en-us/requests/new"
+    "url": "https://help.formspree.io/hc/requests/new"
   },
   "directories": {
     "lib": "src"
