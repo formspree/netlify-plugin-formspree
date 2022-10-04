@@ -1,6 +1,6 @@
 {
   "name": "netlify-plugin-formspree",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Netlify Build plugin - Netlify Plugin for Formspree",
   "main": "src/index.js",
   "files": [
@@ -27,8 +27,10 @@
   "scripts": {
     "release": "release-it"
   },
+  "dependencies": {
+    "@formspree/cli": "^0.9.6"
+  },
   "devDependencies": {
-    "@formspree/cli": "^0.9.6",
-    "release-it": "^15.3.0"
+    "release-it": "^15.4.3"
   }
 }
