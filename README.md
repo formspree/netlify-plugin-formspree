@@ -5,13 +5,18 @@ This plugin automatically deploys forms configured in your `formspree.json` file
 - [Formspree CLI Docs](https://help.formspree.io/hc/en-us/articles/360053819114-The-Formspree-CLI)
 - The [formspree.json docs](https://help.formspree.io/hc/en-us/articles/360053906373-The-formspree-json-File)
 
+## Prerequisites
+
+**Before installing**, please create a new CLI project in the Formspree dashboard. Once created, you'll see a Project ID and a Deploy Key. You'll need these later when configuring your plugin, and creating your form.
+
 ## Configuration via the Netlify UI
 
-Work in progress. We will update this section once the plugin has been included in the Netlify plugin directory.
+The `netlify-plugin-formspree` plugin can be found in the [netlify build plugins directory](https://app.netlify.com/plugins). 
+
+Go to https://app.netlify.com/plugins/netlify-plugin-formspree/install to install the plugin into one of your sites, or you can navigate to your site's settings under `plugins`.
+
 
 ## Configuration via netlify.toml
-
-**Before starting**, please create a new CLI project in the Formspree dashboard. Once created, you'll see a Project ID and a Deploy Key. You'll need these later when configuring your plugin, and creating your form.
 
 First add the plugin to your project's package.json devDependencies:
 
