@@ -11,9 +11,9 @@ This plugin automatically deploys forms configured in your `formspree.json` file
 
 ## Configuration via the Netlify UI
 
-The `netlify-plugin-formspree` plugin can be found in the [netlify build plugins directory](https://app.netlify.com/plugins). 
+The `netlify-plugin-formspree` plugin can be found in the [netlify build plugins directory](https://app.netlify.com/plugins?search=formspree). 
 
-Go to https://app.netlify.com/plugins/netlify-plugin-formspree/install to install the plugin into one of your sites, or you can navigate to your site's settings under `plugins`.
+Go to https://app.netlify.com/plugins/netlify-plugin-formspree/install to install the plugin into one of your sites, or you can navigate to your site's settings -> `plugins`.
 
 
 ## Configuration via netlify.toml
